@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_02dd962929db44a2bb8c64641c10d4d2 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_02dd962929db44a2bb8c64641c10d4d2" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_02dd962929db44a2bb8c64641c10d4d2 = L.map(
+        'map_02dd962929db44a2bb8c64641c10d4d2', {
+        center: [48.314775, 25.082925],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_3e0c7c88af5149edbb120ae6eff98e81 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_02dd962929db44a2bb8c64641c10d4d2);
+    
+            var feature_group_d128bb24618249be9018bec546096944 = L.featureGroup(
+                ).addTo(map_02dd962929db44a2bb8c64641c10d4d2);
+        
+    
+            var circle_marker_639f654f6e7e436d9c02140a6f6d9e62 = L.circleMarker(
+                [48.262023, 25.173841],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_d128bb24618249be9018bec546096944);
+            
+    
+            var popup_97ecf6cd1cda41cda9211e7584c224a7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_85139dffc09743b999c85ea8fe13e5db = $(`<div id="html_85139dffc09743b999c85ea8fe13e5db" style="width: 100.0%; height: 100.0%;">1900 рік св.Трійці</div>`)[0];
+                popup_97ecf6cd1cda41cda9211e7584c224a7.setContent(html_85139dffc09743b999c85ea8fe13e5db);
+            
+
+            circle_marker_639f654f6e7e436d9c02140a6f6d9e62.bindPopup(popup_97ecf6cd1cda41cda9211e7584c224a7)
+            ;
+
+            
+        
+    
+            var circle_marker_db845d30f4924f44a6fed6c6a5b686d3 = L.circleMarker(
+                [48.282076, 25.1616],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_d128bb24618249be9018bec546096944);
+            
+    
+            var popup_005d21f3a64f4cc9b6b471417b893d7d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_aecb20425d0c476b97f49dbaa7ab74c5 = $(`<div id="html_aecb20425d0c476b97f49dbaa7ab74c5" style="width: 100.0%; height: 100.0%;">1900 рік Покрови Присвятої Діви Марії, Рождества Христового</div>`)[0];
+                popup_005d21f3a64f4cc9b6b471417b893d7d.setContent(html_aecb20425d0c476b97f49dbaa7ab74c5);
+            
+
+            circle_marker_db845d30f4924f44a6fed6c6a5b686d3.bindPopup(popup_005d21f3a64f4cc9b6b471417b893d7d)
+            ;
+
+            
+        
+    
+            var circle_marker_b8a145fea8c1495985b350c60ce6ec89 = L.circleMarker(
+                [48.300325, 24.877719],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_d128bb24618249be9018bec546096944);
+            
+    
+            var popup_5e3ec8be21244ec382d90633f29c9c65 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_957dc868d97a41f892f0072d6fa1972c = $(`<div id="html_957dc868d97a41f892f0072d6fa1972c" style="width: 100.0%; height: 100.0%;">1900 рік Вознесення Христового</div>`)[0];
+                popup_5e3ec8be21244ec382d90633f29c9c65.setContent(html_957dc868d97a41f892f0072d6fa1972c);
+            
+
+            circle_marker_b8a145fea8c1495985b350c60ce6ec89.bindPopup(popup_5e3ec8be21244ec382d90633f29c9c65)
+            ;
+
+            
+        
+</script>
