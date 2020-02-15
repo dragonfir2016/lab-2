@@ -1,5 +1,7 @@
-
+from geopy.geocoders import Nominatim
+from geopy.extra.rate_limiter import RateLimiter
 import folium
+import pandas
 
 m = folium.Map(location=[49.8350125, 24.0197128], zoom_start=12)
 
